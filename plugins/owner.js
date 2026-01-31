@@ -44,7 +44,7 @@ async (conn, mek, m, { from }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363348739987203@newsletter',
+                    newsletterJid: 'newsletterJid: '0029VbC2O7bLNSaCiLASpj0I@newsletter'',
                     newsletterName: '*𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃*',
                     serverMessageId: 143
                 }            
@@ -53,7 +53,7 @@ async (conn, mek, m, { from }) => {
 
         // Send audio as per your request
         await conn.sendMessage(from, {
-            audio: { url: 'https://files.catbox.moe/4fz6jh.mp3' }, // Audio URL
+            audio: { url: 'https://image2url.com/r2/default/images/1769887837392-404345c2-1ef5-48e9-94b6-aa8ea1bcf3af.jpg' }, // Audio URL
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });

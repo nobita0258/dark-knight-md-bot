@@ -32,7 +32,7 @@ async (conn, mek, m, { from, quoted, sender, reply }) => {
         const end = new Date().getTime();
         const responseTime = (end - start) / 1000;
 
-        const text = `> *𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃 SPEED: ${responseTime.toFixed(2)}ms ${reactionEmoji}*`;
+        const text = `> *DARK-KNIGHT-MD-BOT SPEED: ${responseTime.toFixed(2)}ms ${reactionEmoji}*`;
 
         await conn.sendMessage(from, {
             text,
@@ -41,8 +41,8 @@ async (conn, mek, m, { from, quoted, sender, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363348739987203@newsletter',
-                    newsletterName: "𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃",
+                    newsletterJid: '0029VbC2O7bLNSaCiLASpj0I@newsletter',
+                    newsletterName: "𝙰𝙷𝚂𝙰𝙽-𝚘𝚏𝚏𝚒𝚌𝚒𝚊𝚕",
                     serverMessageId: 143
                 }
             }

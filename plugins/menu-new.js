@@ -11,7 +11,7 @@ cmd({
     filename: __filename
 }, async (conn, mek, m, { from, reply }) => {
     try {
-        const menuCaption = `╭━━━〔 *${config.BOT_NAME}* 〕━━━┈⊷
+        const menuCaption = `╭━━━〔 *${config.DARK_KNIGHT_BOT}* 〕━━━┈⊷
 ┃★╭──────────────
 ┃★│ 👑 Owner : *${config.AHSAN}*
 ┃★╰──────────────
@@ -39,7 +39,7 @@ cmd({
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: 'newsletterJid: '0029VbC2O7bLNSaCiLASpj0I@newsletter'',
+                newsletterJid: '0029VbC2O7bLNSaCiLASpj0I@newsletter',
                 newsletterName: config.AHSAN,
                 serverMessageId: 143
             }
@@ -51,7 +51,7 @@ cmd({
                 return await conn.sendMessage(
                     from,
                     {
-                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/yj7zp0.png' },
+                        image: { url: config.MENU_IMAGE_URL || 'https://image2url.com/r2/default/images/1769887837392-404345c2-1ef5-48e9-94b6-aa8ea1bcf3af.jpg' },
                         caption: menuCaption,
                         contextInfo: contextInfo
                     },

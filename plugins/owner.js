@@ -29,23 +29,24 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'https://files.catbox.moe/yj7zp0.png' }, // Image URL from your request
+            image: { url: 'https://image2url.com/r2/default/images/1769887837392-404345c2-1ef5-48e9-94b6-aa8ea1bcf3af.jpg' }, // Image URL from your request
             caption: `╭━━〔 *𝙰𝙷𝚂𝙰𝙽-𝚘𝚏𝚏𝚒𝚌𝚒𝚊𝚕* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here is the owner details*
-┃◈┃• *Name* - ${𝙰𝙷𝚂𝙰𝙽}
+┃◈┃• *Name* - ${𝙰𝙷𝚂𝙰𝙽-𝚘𝚏𝚏𝚒𝚌𝚒𝚊𝚕}
 ┃◈┃• *Number* ${923704298949}
 ┃◈┃• *Version*: 2.0.0 Beta
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
-> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙰𝙷𝚂𝙰𝙽-𝚘𝚏𝚏𝚒𝚌𝚒𝚊𝚕❣️*`, // Display the owner's details
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃 ❣️*`, // Display the owner's details
             contextInfo: {
                 mentionedJid: [`${ownerNumber.replace('+', '')}@s.whatsapp.net`], 
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: 'newsletterJid: '0029VbC2O7bLNSaCiLASpj0I@newsletter'',
-                    newsletterName: '*𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃*',
+                    newsletterJid: '0029VbC2O7bLNSaCiLASpj0I@newsletter',
+                        
+                    newsletterName: '*𝙰𝙷𝚂𝙰𝙽-𝚘𝚏𝚏𝚒𝚌𝚒𝚊𝚕*',
                     serverMessageId: 143
                 }            
             }
@@ -53,7 +54,7 @@ async (conn, mek, m, { from }) => {
 
         // Send audio as per your request
         await conn.sendMessage(from, {
-            audio: { url: 'https://image2url.com/r2/default/images/1769887837392-404345c2-1ef5-48e9-94b6-aa8ea1bcf3af.jpg' }, // Audio URL
+            audio: { url: 'https://files.catbox.moe/4fz6jh.mp3' }, // Audio URL
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });

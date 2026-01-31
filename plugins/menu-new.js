@@ -13,7 +13,7 @@ cmd({
     try {
         const menuCaption = `╭━━━〔 *${config.BOT_NAME}* 〕━━━┈⊷
 ┃★╭──────────────
-┃★│ 👑 Owner : *${config.OWNER_NAME}*
+┃★│ 👑 Owner : *${config.AHSAN}*
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
 📋 *ᴄʜᴏᴏsᴇ ᴀ ᴄᴀᴛᴇɢᴏʀʏ ᴛᴏ ᴇxᴘʟᴏʀᴇ:*
@@ -39,8 +39,8 @@ cmd({
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363348739987203@newsletter',
-                newsletterName: config.OWNER_NAME,
+                newsletterJid: 'newsletterJid: '0029VbC2O7bLNSaCiLASpj0I@newsletter'',
+                newsletterName: config.AHSAN,
                 serverMessageId: 143
             }
         };
